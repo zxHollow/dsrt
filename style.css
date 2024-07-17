@@ -22,11 +22,6 @@ li{
     list-style-type: none;
 }
 
-a, a:visited {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
 .material-symbols-outlined {
     font-size: 60px;
     width: 60px;
@@ -37,15 +32,6 @@ a, a:visited {
 }
 
 .material-symbols-outlined:hover{
-    padding: 10px;
-    margin: 5px;
-    color: rgb(31, 31, 31);
-    border-radius: 50%;
-    background-color: white;
-    transition: 0.4s;
-}
-
-.material-symbols-outlined::after{
     padding: 10px;
     margin: 5px;
     color: rgb(31, 31, 31);
