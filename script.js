@@ -7,7 +7,7 @@ function table() {
 }
 
 function book() {
-  bookWin = window.open("add/books.html", "_blank", "location=0, menubar= 0, toolbar=0,scrollbars=0,resizable=0,top=100,left=500,width=400,height=400");
+  bookWin = window.open("books.html", "_blank", "location=0, menubar= 0, toolbar=0,scrollbars=0,resizable=0,top=100,left=500,width=400,height=400");
 }
 
 function closeall() {
