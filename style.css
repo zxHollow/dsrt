@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(https://images.pexels.com/photos/998653/pexels-photo-998653.jpeg?cs=srgb&dl=pexels-francesco-ungaro-998653.jpg&fm=jpg);
+    background-color: white;
     background-size: 100%;
 }
 
@@ -39,6 +39,4 @@ li{
     background-color: white;
     transition: 0.4s;
 }
-
-
 

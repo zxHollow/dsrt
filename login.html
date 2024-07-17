@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <input type="text" id="pecado" class="user">
+    <input type="submit" value="Submit" class="pass" onclick="redireciona()"/>
+
+    <style>     
+    .user {
+        position: absolute;
+        top: 40%;
+        left: 42%;
+        height: 50px;
+        width: 200px;
+        font-size: x-large;
+        text-align: center;
+        font-family: "josefin sans";
+        border-radius: 35px;
+        border: 2px solid gray;
+    }
+
+    .pass {
+        position: absolute;
+        top: 50%;
+        left: 42%;
+        height: 50px;
+        width: 208px;
+        font-size: x-large;
+        text-align: center;
+        font-family: "josefin sans";
+        color: green;
+        cursor: pointer;
+        border-radius: 35px;
+        border: 2px solid rgb(86, 153, 78);
+    }
+
+    .pass:hover {
+        position: absolute;
+        top: 50%;
+        left: 42%;
+        height: 50px;
+        width: 208px;
+        font-size: x-large;
+        text-align: center;
+        font-family: "josefin sans";
+        color: white;
+        cursor: pointer;
+        background-color: rgb(86, 153, 78);
+        border-radius: 35px;
+        border: 2px solid rgb(86, 153, 78);
+        transition: 0.4s;
+    }
+
+    .josefin-sans-font {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 80%;
+    font-style: normal;
+    }
+    </style>
+
+   <script>
+    function redireciona(){
+        var pecado = document.getElementById("pecado").value;
+        location.href=pecado+".html";
+    }
+    </script>
+</body>
+</html>
